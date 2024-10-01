@@ -1,0 +1,27 @@
+# Ignore node_modules (if you're using Node.js dependencies)
+node_modules/
+
+# Ignore the .env file if you store environment variables locally
+.env
+
+# Ignore log files and other output from your code
+*.log
+*.out
+
+# Ignore files related to wrangler CLI 
+.wrangler/
+
+# Ignore files related to npm
+package-lock.json
+
+# Ignore Cloudflare Worker secrets (if stored locally)
+workers-secrets.json
+wrangler.toml
+
+# Ignore any other temporary files
+*.temporary
+*.cache
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
